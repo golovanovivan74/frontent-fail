@@ -1,0 +1,9 @@
+body{
+    background-image: url(cartinci/Обои\ на\ рабочий\ стол\ 1920x1080.jpg);
+}
+a{
+    justify-content: space-between;
+    display: table;
+    font: 1em sans-serif;
+    color: red;
+}

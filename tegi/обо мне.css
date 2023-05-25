@@ -1,0 +1,54 @@
+.header{
+    background-color:#101010;
+    padding: 30px;
+}
+    
+.navigation{
+    float: right;
+    height: 100%;
+    background-color:rgb(0, 0, 0);
+    position: relative;
+    bottom:  67px;  
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #141313;
+}
+ 
+.navigation a li {
+    text-transform: uppercase;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: rgb(68, 221, 29);
+ 
+}
+ 
+.navigation  a:hover{
+    background-color: rgb(26, 1, 1);
+    color: #101010;
+}
+
+ul:hover a li{
+    color: rgb(206, 21, 21);
+}
+.logo-container{
+    color: #ffffff;
+    display: table;
+    padding : 2px 50px
+}
+
+.content{
+    margin: 80px auto  ;
+}
+    
+.start{
+    display: flex;
+    justify-content: space-between;
+} 
